@@ -19,10 +19,11 @@ public class 1133 {
         }
 
         for(int c = menor; c < maior; c++){
-            if(c % 5 == 2 || c % 5 == 3){
+            if(c > 2 & (c % 5 == 2 | c % 5 == 3)){
                 System.out.println(c);
             }
         }
     }
 
 }
+
