@@ -15,10 +15,10 @@ public class M1145 {
             count += 1;
             mensagem += String.format("%d ",c);
             if(count == x){
-              mensagem.strip();
-              System.out.println(mensagem);
-              mensagem = "";
-              count = 0;
+                mensagem.strip();
+                System.out.println(mensagem);
+                mensagem = "";
+                count = 0;
             }
         }
     }
