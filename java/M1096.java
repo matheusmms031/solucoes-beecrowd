@@ -2,7 +2,7 @@ import java.io.IOException;
 
 
 
-public class 1096 {
+public class M1096 {
 
     public static void main(String[] args) throws IOException {
         for(int n1 = 1; n1 <= 9; n1+= 2){

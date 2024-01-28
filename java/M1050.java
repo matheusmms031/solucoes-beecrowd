@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class 1050 {
+public class M1050 {
 
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);

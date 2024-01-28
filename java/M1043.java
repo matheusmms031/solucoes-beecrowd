@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 
-public class 1043 {
+public class M1043 {
 
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);

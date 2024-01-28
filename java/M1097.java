@@ -2,7 +2,7 @@ import java.io.IOException;
 
 
 
-public class 1097 {
+public class M1097 {
 
     public static void main(String[] args) throws IOException {
         int count = 0;

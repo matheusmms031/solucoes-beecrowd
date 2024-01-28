@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 
-public class 1041 {
+public class M1041 {
 
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);

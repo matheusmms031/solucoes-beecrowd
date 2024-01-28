@@ -2,7 +2,7 @@ import java.io.IOException;
 
 
 
-public class 1095 {
+public class M1095 {
 
     public static void main(String[] args) throws IOException {
         int n2 = 1;
