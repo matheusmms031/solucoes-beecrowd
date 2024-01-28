@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 
-public class M1145 {
+public class M1146 {
 
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
@@ -11,10 +11,10 @@ public class M1145 {
         while(n != 0){
             String atual = "";
             n = scan.nextInt();
-            for(int c = 0; c <= n; c++){
+            for(int c = 1; c <= n; c++){
                 atual += String.format("%d ",c);
             }
-            mensagem = atual.strip();
+            mensagem += atual.strip();
             mensagem += "\n";
 
         }
