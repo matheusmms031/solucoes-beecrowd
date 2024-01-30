@@ -14,23 +14,21 @@ public class M1165 {
 
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
-        Map<Integer, Boolean> primos = new HashMap<>();
-
         int n_entradas = scan.nextInt();
-        for(int c = 0; c <= n_entradas; c++){
+        String saida = "";
+        for (int c = 1; c <= n_entradas; c++) {
             int entrada = scan.nextInt();
-            primos.put()
+            String ehp = primo(entrada);
+            saida += String.format("%d %s\n", entrada, ehp);
         }
-
+        System.out.print(saida);
     }
-
-    public static boolean primo(int numero) {
-        for(int c = 1; c <= numero; c++){
-            if((numero % c == 0) & (c != 1 | c != numero)){
-                return true;
+    public static String primo ( int numero){
+        for (int c = 1; c <= numero; c++) {
+            if ((numero % c == 0) & (c != 1 | c != numero)) {
+                return "eh primo";
             }
         }
-        return false;
+        return "nao eh primo";
     }
-
 }
